@@ -633,3 +633,21 @@ footer p{
 body{
   overflow-x:hidden;
 }
+/* final mobile alignment fix */
+.hero-content,
+.about-content,
+.mission-content,
+.volunteer-content,
+.container,
+section {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body{
+  overflow-x: hidden;
+}
