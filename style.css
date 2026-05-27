@@ -614,12 +614,12 @@ footer p{
   background-repeat: no-repeat;
 }
 .hero{
-  background-position: center top !important;
-  background-size: 120% auto !important;
-}
-.hero{
-  background-position: 65% top !important;
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("imges.avif") !important;
   background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
 }
 
 .hero-content{
