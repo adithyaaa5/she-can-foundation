@@ -631,3 +631,18 @@ footer p{
 body{
   overflow-x:hidden;
 }
+.hero-content h2{
+  font-size: 42px;
+  line-height: 1.12;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.hero-content{
+  overflow: hidden;
+}
+
+.hero{
+  overflow: hidden;
+}
