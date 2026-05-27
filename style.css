@@ -518,10 +518,10 @@ footer p{
   }
 
  .hero{
-  min-height:75vh;
-  padding:120px 20px 40px;
+  min-height:90vh;
+  padding:90px 20px 60px;
   display:flex;
-  align-items:flex-start;
+  align-items:centre;
 
   background:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
