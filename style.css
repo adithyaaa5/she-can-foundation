@@ -480,112 +480,103 @@ footer p{
   font-size:16px;
   cursor:pointer;
 }
-/* ================= MOBILE RESPONSIVE ================= */
+}
+/* ===== MOBILE VIEW ONLY ===== */
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width: 768px){
-
-  .navbar{
-    flex-direction:column;
-    gap:15px;
-    padding:16px 20px;
+  nav{
+    padding: 14px 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
   }
 
-  .nav-links{
+  nav ul{
+    display:flex;
     flex-wrap:wrap;
     justify-content:center;
-    gap:16px;
+    gap:18px;
+    padding:0;
+    margin:0;
   }
 
-  .nav-links a{
-    font-size:15px;
+  nav ul li{
+    list-style:none;
   }
 
-  .btn{
-    padding:12px 24px;
-    font-size:15px;
+  .join-btn{
+    margin-top:10px;
+    padding:12px 28px;
+    font-size:16px;
+    border-radius:12px;
   }
-
 
   .hero{
-    min-height:100vh;
-    padding:120px 20px 70px;
-    text-align:left;
+    min-height:90vh;
+    padding:90px 20px 60px;
+    display:flex;
+    align-items:center;
   }
 
   .hero-content{
+    width:100%;
     max-width:100%;
-    padding-top:30px;
   }
 
   .hero-content h1{
-    font-size:42px;
-    line-height:1.2;
-    margin-bottom:18px;
+    font-size:52px;
+    line-height:1.08;
+    margin-bottom:20px;
+    word-break:break-word;
   }
 
   .hero-content p{
     font-size:17px;
     line-height:1.7;
     max-width:100%;
-    margin-bottom:24px;
   }
 
   .hero-btn{
-    font-size:16px;
     padding:14px 28px;
+    font-size:16px;
+    margin-top:20px;
   }
-
-
-  .mission,
-  .about,
-  .volunteer{
-    padding:70px 20px;
-  }
-
-  .mission h2,
-  .about h2,
-  .volunteer h2{
-    font-size:34px;
-  }
-
-  .mission p,
-  .about-text,
-  .volunteer p{
-    font-size:17px;
-    line-height:1.7;
-  }
-
-
-  .impact{
-    flex-direction:column;
-    align-items:center;
-    gap:20px;
-  }
-
-  .impact-box{
-    width:100%;
-    max-width:320px;
-  }
-
 
   .cards{
-    flex-direction:column;
-    align-items:center;
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+    padding:0 20px;
   }
 
   .card{
     width:100%;
-    max-width:340px;
+    max-width:100%;
   }
 
+  .impact-container{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:20px;
+    padding:0 20px;
+  }
 
-  #volunteerForm{
+  .impact-box{
     width:100%;
+    max-width:100%;
   }
 
-  #volunteerForm input,
-  #volunteerForm textarea{
-    font-size:16px;
+  section{
+    padding-left:20px;
+    padding-right:20px;
   }
 
+  h2{
+    font-size:34px;
+  }
+
+  p{
+    font-size:17px;
+    line-height:1.7;
+  }
 }
