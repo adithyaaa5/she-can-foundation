@@ -1,6 +1,6 @@
 # She Can Foundation Website
 
-A responsive NGO website created as part of the Web Development Internship selection task for She Can Foundation.
+A responsive NGO website created as part of the Web Development Internship  task for She Can Foundation.
 
 ## Features
 
