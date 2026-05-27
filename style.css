@@ -527,7 +527,7 @@ footer p{
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
     url("imges.avif");
 
-  background-size:cover;
+  background-size:100% auto;
   background-position:center top;
   background-repeat:no-repeat;
 }
