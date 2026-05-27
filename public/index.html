@@ -1,2 +1,123 @@
-<temporary.....
-</temporary..>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>She Can Foundation</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">She Can Foundation</div>
+
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <a href="#volunteer" class="btn">Join Us</a>
+    </nav>
+  </header>
+
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Empowering Youth Through Learning & Opportunity</h1>
+
+      <p>
+        She Can Foundation is a youth-driven NGO creating opportunities,
+        awareness, and positive social impact through education,
+        digital initiatives, and community development.
+      </p>
+
+      <a href="#volunteer" class="hero-btn">Join Our Mission</a>
+    </div>
+
+    <div class="hero-image">
+      <img src="imges.avif" alt="Students learning together">
+    </div>
+  </section>
+
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Us</h2>
+
+    <p class="about-text">
+      At She Can Foundation, we believe every student deserves a chance
+      to learn, grow, and build confidence through real opportunities.
+      Our mission is to support young minds through education,
+      digital skill-building, and community-led initiatives.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Education</h3>
+        <p>Creating learning opportunities for students to grow and succeed.</p>
+      </div>
+
+      <div class="card">
+        <h3>Digital Skills</h3>
+        <p>Helping youth build practical knowledge through technology.</p>
+      </div>
+
+      <div class="card">
+        <h3>Community Impact</h3>
+        <p>Encouraging awareness, leadership, and meaningful social change.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Volunteer Section -->
+  <section id="volunteer" class="volunteer">
+  <h2>Become a Volunteer</h2>
+  <p>Join our mission and help create opportunities for students.</p>
+
+  <form id="volunteerForm">
+    <input
+      type="text"
+      id="name"
+      placeholder="Your Name"
+      required
+    >
+
+    <input
+      type="email"
+      id="email"
+      placeholder="Your Email"
+      required
+    >
+
+    <textarea
+      id="message"
+      placeholder="Why do you want to volunteer?"
+      rows="4"
+    ></textarea>
+
+    <button type="submit">Volunteer Now</button>
+  </form>
+  </section>
+
+
+  <!-- Footer -->
+  <footer id="contact">
+    <h3>She Can Foundation</h3>
+    <p>Creating opportunities for every learner.</p>
+    <p>© 2026 She Can Foundation. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
