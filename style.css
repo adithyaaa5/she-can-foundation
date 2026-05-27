@@ -599,8 +599,8 @@ footer p{
   .mission,
   .volunteer,
   footer{
-    padding-left: 18px;
-    padding-right: 18px;
+    padding-left: 24px;
+    padding-right: 24px;
   }
 
 }
@@ -620,4 +620,14 @@ footer p{
 
 .hero-content{
   padding-top: 50px;
+}
+.hero,
+.hero-content{
+  width:100%;
+  max-width:100%;
+  box-sizing:border-box;
+}
+
+body{
+  overflow-x:hidden;
 }
