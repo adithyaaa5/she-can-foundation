@@ -545,7 +545,7 @@ footer p{
   .hero-btn{
     padding:14px 28px;
     font-size:16px;
-    margin-top:20px;
+    margin-top:50px;
   }
 
   .cards{
@@ -588,11 +588,7 @@ footer p{
 }
 @media screen and (max-width: 768px) {
 
-  /* your current mobile css */
 
-  ...
-
-  /* paste this at the end */
   .hero-content{
     padding-left: 18px;
     padding-right: 18px;
