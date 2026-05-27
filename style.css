@@ -407,9 +407,15 @@ footer p{
 }
 
 .hero-content h1{
-  font-size:46px;
+  font-size: 42px;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin-bottom: 18px;
+  max-width: 100%;
+  word-break: normal;
+  overflow-wrap: break-word;
 }
-
 .hero-content p{
   font-size:18px;
 }
