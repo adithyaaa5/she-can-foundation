@@ -518,16 +518,16 @@ footer p{
   }
 
  .hero{
-  min-height:90vh;
-  padding:90px 20px 60px;
+  min-height:75vh;
+  padding:120px 20px 40px;
   display:flex;
-  align-items:center;
+  align-items:flex-start;
 
   background:
     linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
     url("imges.avif");
 
-  background-size:100% auto;
+  background-size:cover;
   background-position:center top;
   background-repeat:no-repeat;
 }
