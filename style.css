@@ -517,24 +517,20 @@ footer p{
     border-radius:12px;
   }
 
-  .hero{
-    min-height:90vh;
-    padding:90px 20px 60px;
-    display:flex;
-    align-items:center;
-  }
+ .hero{
+  min-height:90vh;
+  padding:90px 20px 60px;
+  display:flex;
+  align-items:center;
 
-  .hero-content{
-    width:100%;
-    max-width:100%;
-  }
+  background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url("imges.avif");
 
-  .hero-content h1{
-    font-size:52px;
-    line-height:1.08;
-    margin-bottom:20px;
-    word-break:break-word;
-  }
+  background-size:cover;
+  background-position:center top;
+  background-repeat:no-repeat;
+}
 
   .hero-content p{
     font-size:17px;
