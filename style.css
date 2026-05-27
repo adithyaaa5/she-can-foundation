@@ -586,3 +586,29 @@ footer p{
     line-height:1.7;
   }
 }
+@media screen and (max-width: 768px) {
+
+  /* your current mobile css */
+
+  ...
+
+  /* paste this at the end */
+  .hero-content{
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 40px;
+  }
+
+  .hero{
+    padding-top: 140px;
+  }
+
+  .about,
+  .mission,
+  .volunteer,
+  footer{
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+}
