@@ -96,9 +96,10 @@ body{
 }
 
 .hero-content h2{
-  font-size:80px;
+  font-size:84px;
   line-height:1.05;
   font-weight:500;
+  max-width:900px;
   color:#8b3d4d;
   letter-spacing:-5px;
   margin-bottom:28px;
