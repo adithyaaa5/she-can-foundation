@@ -617,3 +617,11 @@ footer p{
   background-position: center top !important;
   background-size: 120% auto !important;
 }
+.hero{
+  background-position: 65% top !important;
+  background-size: cover !important;
+}
+
+.hero-content{
+  padding-top: 50px;
+}
