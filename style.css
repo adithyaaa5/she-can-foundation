@@ -91,15 +91,16 @@ body{
 }
 
 .hero-content{
-  max-width:1100px;
-  padding-top:100px;
+  max-width:none;
+  width: 100%;
 }
 
 .hero-content h2{
   font-size:80px;
   line-height:1.05;
   font-weight:500;
-  max-width:1200px;
+  max-width:none;
+  width: 100%;
   color:#8b3d4d;
   letter-spacing:-5px;
   margin-bottom:28px;
