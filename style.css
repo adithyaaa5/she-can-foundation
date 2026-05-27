@@ -614,30 +614,6 @@ footer p{
   background-repeat: no-repeat;
 }
 .hero{
-  width: 100%;
-  min-height: 100vh;
-  padding: 140px 20px 60px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
-.hero-content{
-  width: 100%;
-  max-width: 100%;
-  padding-left: 20px;
-  padding-right: 20px;
-  box-sizing: border-box;
-}
-
-.hero-content h1{
-  font-size: 42px;
-  line-height: 1.15;
-  max-width: 100%;
-  margin-top: 40px;
-}
-
-body{
-  overflow-x: hidden;
+  background-position: center top !important;
+  background-size: 120% auto !important;
 }
